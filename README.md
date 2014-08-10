@@ -18,3 +18,14 @@ http://ipecho.net/
 Please note that you can use any service or even your own script to
 fetch the current IP as long as the only output of the requested page
 is the requesting client's IP address.
+
+## Usage
+
+For basic usage, all you need to do is to change the ROUTABLE_HOST and
+ROUTABLE_KEY variables to match your own hostname and the corresponding
+key for your hostname that was given to you when the hostname was created.
+
+The script contains example values for both of these variables, so follow
+those examples to set these variables. The example values match the API
+example call from routable.org documentation.
+ 
